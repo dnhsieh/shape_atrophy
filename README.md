@@ -5,13 +5,13 @@ The file `./CUDA/compile.m` needs to be run for the first-time usage. The result
 </br>
 
 <p float="left">
-  <img src="https://github.com/dnhsieh/shape_atrophy/blob/main/figures/fig_atrophyDemo_sol_time0p00.png" width="30%" height="30%"> 
-  <img src="https://github.com/dnhsieh/shape_atrophy/blob/main/figures/fig_atrophyDemo_sol_time0p20.png" width="30%" height="30%">
+  <img src="https://github.com/dnhsieh/shape_atrophy/blob/main/figures/fig_atrophyDemo_sol_time0p00.png" width="30%" height="30%"> &nbsp;
+  <img src="https://github.com/dnhsieh/shape_atrophy/blob/main/figures/fig_atrophyDemo_sol_time0p20.png" width="30%" height="30%"> &nbsp;
   <img src="https://github.com/dnhsieh/shape_atrophy/blob/main/figures/fig_atrophyDemo_sol_time0p40.png" width="30%" height="30%">
- </p>
+</p>
  
- <p float="left">
-  <img src="https://github.com/dnhsieh/shape_atrophy/blob/main/figures/fig_atrophyDemo_sol_time0p60.png" width="30%" height="30%"> 
-  <img src="https://github.com/dnhsieh/shape_atrophy/blob/main/figures/fig_atrophyDemo_sol_time0p80.png" width="30%" height="30%">
+<p float="left">
+  <img src="https://github.com/dnhsieh/shape_atrophy/blob/main/figures/fig_atrophyDemo_sol_time0p60.png" width="30%" height="30%"> &nbsp;
+  <img src="https://github.com/dnhsieh/shape_atrophy/blob/main/figures/fig_atrophyDemo_sol_time0p80.png" width="30%" height="30%"> &nbsp;
   <img src="https://github.com/dnhsieh/shape_atrophy/blob/main/figures/fig_atrophyDemo_sol_time1p00.png" width="30%" height="30%">
- </p>
+</p>
