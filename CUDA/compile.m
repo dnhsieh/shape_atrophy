@@ -4,7 +4,7 @@ if nargin == 0
 	fcnStr = 'all';
 end
 
-libDir     = '/usr/local/cuda/lib64';
+libraryDir = '/usr/local/cuda/lib64';
 includeDir = 'include';
 matlabFlag = '-R2018a';
 
@@ -53,7 +53,7 @@ if strcmpi(fcnStr, '2D_frame_objfcn') || strcmpi(fcnStr, '2D_frame') || strcmpi(
 	};
 	
 	fprintf('Compiling computeObjfcn (2D_frame)...\n');
-	mexcuda(matlabFlag, '-DDIM2', ['-L', libDir], ['-I', includeDir], files, ...
+	mexcuda(matlabFlag, '-DDIM2', ['-L', libraryDir], ['-I', includeDir], files, ...
 	        '-lcublas', '-lcusolver', '-output', 'computeObjfcn_2D_frame');
 	fprintf('\n');
 
@@ -102,7 +102,7 @@ if strcmpi(fcnStr, '2D_frame_deform') || strcmpi(fcnStr, '2D_frame') || strcmpi(
 	};
 	
 	fprintf('Compiling deformation (2D_frame)...\n');
-	mexcuda(matlabFlag, '-DDIM2', ['-L', libDir], ['-I', includeDir], files, ...
+	mexcuda(matlabFlag, '-DDIM2', ['-L', libraryDir], ['-I', includeDir], files, ...
 	        '-lcublas', '-lcusolver', '-output', 'deformation_2D_frame');
 	fprintf('\n');
 
@@ -153,7 +153,7 @@ if strcmpi(fcnStr, '3D_frame_objfcn') || strcmpi(fcnStr, '3D_frame') || strcmpi(
 	};
 	
 	fprintf('Compiling computeObjfcn (3D_frame)...\n');
-	mexcuda(matlabFlag, '-DDIM3', ['-L', libDir], ['-I', includeDir], files, ...
+	mexcuda(matlabFlag, '-DDIM3', ['-L', libraryDir], ['-I', includeDir], files, ...
 	        '-lcublas', '-lcusolver', '-output', 'computeObjfcn_3D_frame');
 	fprintf('\n');
 
@@ -202,7 +202,7 @@ if strcmpi(fcnStr, '3D_frame_deform') || strcmpi(fcnStr, '3D_frame') || strcmpi(
 	};
 	
 	fprintf('Compiling deformation (3D_frame)...\n');
-	mexcuda(matlabFlag, '-DDIM3', ['-L', libDir], ['-I', includeDir], files, ...
+	mexcuda(matlabFlag, '-DDIM3', ['-L', libraryDir], ['-I', includeDir], files, ...
 	        '-lcublas', '-lcusolver', '-output', 'deformation_3D_frame');
 	fprintf('\n');
 
