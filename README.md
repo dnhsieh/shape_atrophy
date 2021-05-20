@@ -1,6 +1,6 @@
 ## Layered shape evolution with PDE
 
-The file `./CUDA/compile.m` needs to be run for the first-time usage with `libDir` changed. The result of `./demo/run_demo.m` is shown in the following figures, demonstrating the internal chemical propagation (in red) and the shape evolution affected by the chemical.
+The file `./CUDA/compile.m` needs to be run for the first-time usage with `libraryDir` changed. The result of `./demo/run_demo.m` is shown in the following figures, demonstrating the internal chemical propagation (in red) and the shape evolution affected by the chemical.
 
 </br>
 
