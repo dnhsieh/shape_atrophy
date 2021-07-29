@@ -17,6 +17,22 @@ The file `./CUDA/compile.m` needs to be run for the first-time usage with `libra
 </p>
 
 </br>
+</br>
+
+The following figures show a 3D example.
+
+<p float="left">
+  <img src="https://github.com/dnhsieh/shape_atrophy/blob/main/figures/fig_cortex_deformation_time0p00.png" width="32%" height="32%"> &nbsp;
+  <img src="https://github.com/dnhsieh/shape_atrophy/blob/main/figures/fig_cortex_deformation_time0p20.png" width="32%" height="32%"> &nbsp;
+  <img src="https://github.com/dnhsieh/shape_atrophy/blob/main/figures/fig_cortex_deformation_time0p40.png" width="32%" height="32%">
+</p>
+<p float="left">
+  <img src="https://github.com/dnhsieh/shape_atrophy/blob/main/figures/fig_cortex_deformation_time0p60.png" width="32%" height="32%"> &nbsp;
+  <img src="https://github.com/dnhsieh/shape_atrophy/blob/main/figures/fig_cortex_deformation_time0p80.png" width="32%" height="32%"> &nbsp;
+  <img src="https://github.com/dnhsieh/shape_atrophy/blob/main/figures/fig_cortex_deformation_time1p00.png" width="32%" height="32%">
+</p>
+
+</br>
 
 #### References
 1. https://arxiv.org/pdf/2101.06508.pdf
