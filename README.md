@@ -19,17 +19,19 @@ The file `./CUDA/compile.m` needs to be run for the first-time usage with `libra
 </br>
 </br>
 
-The following figures show a 3D example.
+The following figures show a 3D example. Only half of the volume is shown in order to illustrate the chemical propagation.
+
+</br>
 
 <p float="left">
-  <img src="https://github.com/dnhsieh/shape_atrophy/blob/main/figures/fig_cortex_deformation_time0p00.png" width="32%" height="32%"> &nbsp;
-  <img src="https://github.com/dnhsieh/shape_atrophy/blob/main/figures/fig_cortex_deformation_time0p20.png" width="32%" height="32%"> &nbsp;
-  <img src="https://github.com/dnhsieh/shape_atrophy/blob/main/figures/fig_cortex_deformation_time0p40.png" width="32%" height="32%">
+  <img src="https://github.com/dnhsieh/shape_atrophy/blob/main/figures/fig_cortex_deformation_time0p00.png" width="30%" height="30%"> &nbsp;
+  <img src="https://github.com/dnhsieh/shape_atrophy/blob/main/figures/fig_cortex_deformation_time0p20.png" width="30%" height="30%"> &nbsp;
+  <img src="https://github.com/dnhsieh/shape_atrophy/blob/main/figures/fig_cortex_deformation_time0p40.png" width="30%" height="30%">
 </p>
 <p float="left">
-  <img src="https://github.com/dnhsieh/shape_atrophy/blob/main/figures/fig_cortex_deformation_time0p60.png" width="32%" height="32%"> &nbsp;
-  <img src="https://github.com/dnhsieh/shape_atrophy/blob/main/figures/fig_cortex_deformation_time0p80.png" width="32%" height="32%"> &nbsp;
-  <img src="https://github.com/dnhsieh/shape_atrophy/blob/main/figures/fig_cortex_deformation_time1p00.png" width="32%" height="32%">
+  <img src="https://github.com/dnhsieh/shape_atrophy/blob/main/figures/fig_cortex_deformation_time0p60.png" width="30%" height="30%"> &nbsp;
+  <img src="https://github.com/dnhsieh/shape_atrophy/blob/main/figures/fig_cortex_deformation_time0p80.png" width="30%" height="30%"> &nbsp;
+  <img src="https://github.com/dnhsieh/shape_atrophy/blob/main/figures/fig_cortex_deformation_time1p00.png" width="30%" height="30%">
 </p>
 
 </br>
